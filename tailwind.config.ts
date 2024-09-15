@@ -12,8 +12,18 @@ const config: Config = {
         '276': '276px',
         '424': '424px',
       },
+      keyframes: {
+        'forward-icon': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(5px)' }, // Adjust the distance as needed
+        },
+      },
+      animation: {
+        'forward-icon': 'forward-icon 0.3s ease-in-out',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
