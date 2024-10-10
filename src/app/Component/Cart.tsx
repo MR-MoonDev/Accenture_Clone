@@ -32,7 +32,7 @@ const cartData = [
 
 const Cart = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex  justify-center items-center">
     <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-6 ">
       {cartData.map((item, index) => (
         <CartItem key={index} item={item} />
