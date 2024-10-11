@@ -52,7 +52,7 @@ const AccentureResponsiblr = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [animationClass, setAnimationClass] = useState("");
   const prevIndexRef = useRef(currentIndex);
-  const [isPlaying, setIsPlaying] = useState(false); // State to toggle play/pause
+  const [isPlaying, setIsPlaying] = useState(false); 
 
   const handleNext = () => {
     if (currentIndex < AccItems.length - 1) {
@@ -81,29 +81,29 @@ const AccentureResponsiblr = () => {
   };
 
   return (
-    <div>
+    <div className="mt-20">
       <div className={`relative ${animationClass}`}>
         <AccentureItems item={AccItems[currentIndex]} />
       </div>
       <div className="text-white flex items-center justify-between p-3">
-      <div className="bg-gray-700  p-4 " onClick={handlePlayPause}>
+      <div className="bg-gray-700 p-4 flex items-center justify-center text-xs" onClick={handlePlayPause}>
           {isPlaying ? <Icons.RxResume className="text-sm md:text-xl"/> : <Icons.FaPlay />}
         </div>
           <div className="p-3 flex gap-3">
             <button
               onClick={handlePrevious}
               disabled={currentIndex === 0}
-              className="bg-gray-700 text-xl p-4"
+             className="bg-gray-700 p-4 flex items-center justify-center text-xs"
             >
               <Icons.FaArrowLeft />
             </button>
-            <div className="text-xl p-2">
+            <div className="p-4 flex items-center justify-center text-xs">
               {currentIndex + 1} / {AccItems.length}
             </div>
             <button
               onClick={handleNext}
               disabled={currentIndex === AccItems.length - 1}
-              className="bg-gray-700 text-xl p-4"
+              className="bg-gray-700 p-4 flex items-center justify-center text-xs"
             >
               <Icons.FaArrowRight />
             </button>

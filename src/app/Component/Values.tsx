@@ -3,7 +3,7 @@ import Icons from "../Icons";
 
 const Values = () => {
   return (
-    <div className="text-white flex flex-col gap-4 justify-center items-center">
+    <div className="text-white flex flex-col gap-4 justify-center items-center mt-20">
       <div className="text-4xl sm:text-6xl font-bold">
         360<sup className="align-super ml-[-2px] font-serif">o</sup> VALUE
       </div>
