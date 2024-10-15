@@ -19,7 +19,7 @@ const Herosection = () => {
           </div>
           <div className="relative z-10 flex gap-3 items-center mt-5">
             <p className="font-bold text-sm">
-              Access Accenture's First Ai-iD Kit
+              Access Accenture&apos;s First Ai-iD Kit
             </p>
             <button className="bg-purple-600 hover:bg-purple-800 p-1 flex items-center transition-transform duration-300 ease-in-out hover:animate-forward-icon">
               <Icons.MdKeyboardArrowRight />

@@ -15,7 +15,7 @@ const Careers = () => {
           Grow your career at the heart of change
         </div>
         <div className="text-2xl font-serif">
-          It's your time to shine. Bring your ingenuity, curiosity and big
+          It&apos;s your time to shine. Bring your ingenuity, curiosity and big
           ideas.
         </div>
         <div className="flex gap-3  items-center">
