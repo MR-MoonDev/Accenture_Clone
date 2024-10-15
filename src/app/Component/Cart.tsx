@@ -1,5 +1,6 @@
-import React from 'react';
-import CartItem from './CartItem';
+import React from "react";
+import CartItem from "./CartItem";
+import Careers from "./Careers";
 
 const cartData = [
   {
@@ -11,7 +12,8 @@ const cartData = [
   {
     title: "Title 2",
     heading: "Heading 2",
-    content: "Consectetur possimus perspiciatis voluptates similique voluptas deleniti debitis.",
+    content:
+      "Consectetur possimus perspiciatis voluptates similique voluptas deleniti debitis.",
     imageUrl: "/my.jpeg",
   },
   {
@@ -28,18 +30,16 @@ const cartData = [
   },
 ];
 
-
-
 const Cart = () => {
   return (
-    <div className="flex  justify-center items-center mt-20">
-    <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-6 ">
-      {cartData.map((item, index) => (
-        <CartItem key={index} item={item} />
-      ))}
+    <div className="flex  justify-center items-center mt-20 relative z-10 bg-black">
+      <div className="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+        {cartData.map((item, index) => (
+          <CartItem key={index} item={item} />
+        ))}
+      </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;

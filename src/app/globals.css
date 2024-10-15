@@ -32,3 +32,15 @@
 .slide-in-right {
   animation: slideInRight 0.5s ease-out;
 }
+
+
+#tsparticles {
+  position: relative !important;
+  z-index: -1;
+}
+
+@media screen and (max-width: 550px) {
+  #tsparticles {
+    visibility: hidden;
+  }
+}

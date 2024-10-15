@@ -8,10 +8,10 @@ import Values from './Component/Values';
 import './globals.css';
 import 'animate.css';
 import Navbar from './Component/Navbar';
-
 export default function Home() {
   return (
-    <main className='bg-black   '>
+    <main className='bg-black '>
+      
       <Navbar/>
       <Cart />
       <Values/>

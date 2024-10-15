@@ -7,7 +7,7 @@ function Footer() {
   const secondHalf = footerLinks.slice(Math.ceil(footerLinks.length / 2)); // Last 6
 
   return (
-    <div className='text-white flex flex-col md:flex-row justify-around '>
+    <div className='text-white flex flex-col md:flex-row justify-around relative z-10'>
       <div className='flex flex-col gap-8'>
         <h1 className='text-2xl font-bold mb-4'>Let there be change</h1>
 

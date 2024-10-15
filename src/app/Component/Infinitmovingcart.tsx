@@ -4,7 +4,7 @@ import Icons from "../Icons";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 const quotes= [
     {
-      date: "December 17,2002",
+      date: "December 17,2001",
       description: "32nd U.S. President"
     },
     {
@@ -12,11 +12,11 @@ const quotes= [
       description: "Former Prime Minister of the UK"
     },
     {
-      date: "December 17,2002",
+      date: "December 17,2003",
       description: "Musician and Singer"
     },
     {
-      date: "December 17,2002",
+      date: "December 17,2004",
       description: "Theoretical Physicist"
     }
   ];

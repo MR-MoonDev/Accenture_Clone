@@ -9,7 +9,6 @@ interface CartItemProps {
   };
 }
 
-
 const CartItem = ({item}:CartItemProps) => {
   return (
     <div className="p-3 group">
