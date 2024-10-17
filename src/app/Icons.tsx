@@ -5,7 +5,11 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa";
 import { RxResume } from "react-icons/rx";
 import { FaArrowRight } from "react-icons/fa";
-
+import {FaBars} from "react-icons/fa"
+  import {FaSearch} from "react-icons/fa"
+  import {FaCaretDown} from "react-icons/fa"
+  import {FaCaretUp} from "react-icons/fa"
+  import {FaGlobe} from "react-icons/fa"
 
 const Icons ={
     MdKeyboardArrowRight,
@@ -13,7 +17,12 @@ const Icons ={
     FaArrowLeft,
     FaPlay,
     RxResume,
-    FaArrowRight
+    FaArrowRight,
+    FaBars,
+  FaSearch,
+  FaCaretDown,
+  FaCaretUp,
+  FaGlobe,
 }
 
 

@@ -8,11 +8,13 @@ import Values from './Component/Values';
 import './globals.css';
 import 'animate.css';
 import Navbar from './Component/Navbar';
+import Herosection from './Component/Herosection';
 export default function Home() {
   return (
     <main className='bg-black '>
       
       <Navbar/>
+      <Herosection/>
       <Cart />
       <Values/>
       <AccentureResponsiblr/>

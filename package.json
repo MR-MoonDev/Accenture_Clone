@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@adobe/react-spectrum": "^3.37.1",
     "@tsparticles/react": "^3.0.0",
     "animate.css": "^4.1.1",
     "clsx": "^2.1.1",

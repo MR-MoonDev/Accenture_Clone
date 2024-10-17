@@ -4,7 +4,7 @@ import Icons from "../Icons";
 import AnimatedBackground from "./AnimatedBackground ";
 const Herosection = () => {
   return (
-    <div className="text-white">
+    <div className="text-white relative w-full h-96 p-20">
       <div className="relative w-full h-96 ">
         {/* <div 
     className="absolute inset-0 opacity-20 bg-cover bg-center" 
