@@ -4,20 +4,16 @@ import Icons from "../Icons";
 import AnimatedBackground from "./AnimatedBackground ";
 const Herosection = () => {
   return (
-    <div className="text-white relative w-full h-96 p-20">
-      <div className="relative w-full h-96 ">
-        {/* <div 
-    className="absolute inset-0 opacity-20 bg-cover bg-center" 
-    style={{ backgroundImage: "url('/my.jpeg')" }}
-  ></div> */}
+    <div className="text-white relative w-full lg:h-80 p-10">
+      <div className="relative w-full   ">
+       
         <div>
           <AnimatedBackground />
         </div>
-        <div className="">
-          <div className="relative z-10 sm:text-sm md:text-8xl text-white font-semibold ">
+          <div className="relative text-2xl z-10 sm:text-sm md:text-8xl text-white font-semibold ">
             Get to know deepfakes before they know you
           </div>
-          <div className="relative z-10 flex gap-3 items-center mt-5">
+          <div className="text-xs relative z-10 flex gap-3 items-center mt-5">
             <p className="font-bold text-sm">
               Access Accenture&apos;s First Ai-iD Kit
             </p>
@@ -25,7 +21,6 @@ const Herosection = () => {
               <Icons.MdKeyboardArrowRight />
             </button>
           </div>
-        </div>
       </div>
     </div>
   );

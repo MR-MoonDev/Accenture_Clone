@@ -10,6 +10,7 @@ import {FaBars} from "react-icons/fa"
   import {FaCaretDown} from "react-icons/fa"
   import {FaCaretUp} from "react-icons/fa"
   import {FaGlobe} from "react-icons/fa"
+  import { ImCross } from "react-icons/im";
 
 const Icons ={
     MdKeyboardArrowRight,
@@ -23,6 +24,7 @@ const Icons ={
   FaCaretDown,
   FaCaretUp,
   FaGlobe,
+  ImCross
 }
 
 

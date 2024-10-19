@@ -11,7 +11,7 @@ import Navbar from './Component/Navbar';
 import Herosection from './Component/Herosection';
 export default function Home() {
   return (
-    <main className='bg-black '>
+    <main className='bg-black z-10  '>
       
       <Navbar/>
       <Herosection/>

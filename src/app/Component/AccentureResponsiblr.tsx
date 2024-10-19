@@ -81,34 +81,31 @@ const AccentureResponsiblr = () => {
   };
 
   return (
-    <div className="mt-20 relative z-10 ">
+    <div className="p-20 relative bg-black z-10  ">
       <div className={`relative ${animationClass}`}>
         <AccentureItems item={AccItems[currentIndex]} />
       </div>
-      <div className="text-white flex items-center justify-between p-3">
-      <div className="bg-gray-700 p-4 flex items-center justify-center text-xs" onClick={handlePlayPause}>
-          {isPlaying ? <Icons.RxResume className="text-sm md:text-xl"/> : <Icons.FaPlay />}
-        </div>
-          <div className="p-3 flex gap-3">
-            <button
-              onClick={handlePrevious}
-              disabled={currentIndex === 0}
-             className="bg-gray-700 p-4 flex items-center justify-center text-xs"
+         <div className=" text-white flex  justify-between ">
+            <div
+              className="bg-gray-700 p-4 flex items-center justify-center text-xs"
+              onClick={handlePlayPause}
             >
-              <Icons.FaArrowLeft />
-            </button>
-            <div className="p-4 flex items-center justify-center text-xs">
+              {isPlaying ? <Icons.RxResume /> : <Icons.FaPlay />}
+            </div>
+            <div className=" flex gap-3 justify-around">
+              <button onClick={handlePrevious}
+              disabled={currentIndex === 0} className="bg-gray-700 p-4 flex items-center justify-center text-xs">
+                <Icons.FaArrowLeft />
+              </button>
+              <div className="p-4 flex items-center justify-center text-xs">
               {currentIndex + 1} / {AccItems.length}
             </div>
-            <button
-              onClick={handleNext}
-              disabled={currentIndex === AccItems.length - 1}
-              className="bg-gray-700 p-4 flex items-center justify-center text-xs"
-            >
-              <Icons.FaArrowRight />
-            </button>
+              <button onClick={handleNext}
+              disabled={currentIndex === AccItems.length - 1} className="bg-gray-700 p-4 flex items-center justify-center text-xs">
+                <Icons.FaArrowRight />
+              </button>
+            </div>
           </div>
-        </div>
     </div>
   );
 };

@@ -1,15 +1,16 @@
 import React from "react";
 import Icons from "../Icons";
+import 'animate.css';
 
 const Careers = () => {
   return (
-    <div className="text-white flex flex-col md:flex-row justify-around  gap-5 items-center mt-20 relative z-10">
+    <div className="text-white bg-black flex flex-col md:flex-row justify-around  gap-5 items-center  relative z-10">
       <div
         className="flex just w-96 h-96 bg-cover bg-center  p-20"
         style={{ backgroundImage: "url('/my.jpeg')" }}
       >
       </div>
-      <div className="flex flex-col gap-3 bg-red-500 ">
+      <div className="flex flex-col gap-3 p-10 animate__animated animate__bounce" >
         <div className="font-bold">CARRES</div>
         <div className="text-4xl font-semibold  ">
           Grow your career at the heart of change
