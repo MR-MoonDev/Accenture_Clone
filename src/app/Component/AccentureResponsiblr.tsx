@@ -81,7 +81,7 @@ const AccentureResponsiblr = () => {
   };
 
   return (
-    <div className="p-20 relative bg-black z-10  ">
+    <div className="p-2 lg:p-20 relative bg-black z-10  ">
       <div className={`relative ${animationClass}`}>
         <AccentureItems item={AccItems[currentIndex]} />
       </div>
